@@ -34,6 +34,8 @@ export default function App() {
           <Input type="password" label="Password" />
           <br />
           <Button
+            as={Link}
+            href="/home"
             radius="full"
             className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg"
           >
