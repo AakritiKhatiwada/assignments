@@ -3,5 +3,3 @@ const arr = [4, 3, 20];
 //expected output is [4,3]
 arr.pop();
 console.log(arr);
-
-console.log();
