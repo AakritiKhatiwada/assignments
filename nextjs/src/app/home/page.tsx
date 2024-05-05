@@ -6,7 +6,9 @@ const Home = () => {
   return (
     <div>
       <Header />
-      This is a Home page
+      <div className="flex flex-row min-h-screen justify-center items-center">
+        <h1 className="my-4 text-2xl">This is a Home page</h1>
+      </div>
       <Footer />
     </div>
   );
